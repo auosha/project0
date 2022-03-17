@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;;
+}
+.container{
+    margin:10px;
+    padding:10px;
+}
+/* START HEADER   */
+.header{
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+} 
+.header button{
+    background: rgb(45, 83, 255);
+    border: none;
+    width: 90PX;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.header button:hover{
+    background: rgb(75, 108, 255);
+}
+.header button a {
+    color: #fff;
+    font-size: 15px;
+}
+ /* END HEADER   */
+
+   /* START IMGAE  */
+.image{
+    margin-top: -40px;
+}
+/* END IMGAE  */
+
+/* START WORD  */
+.word{
+    position: relative;
+    padding: 35px;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(233, 17, 17);
+}
+/*END WORD  */
+
+ /* START SEARCH */
+.search{
+    position: relative;
+    display: grid;
+    max-width: 100%;
+    margin:10px;
+    margin-top: 40px;
+    grid-gap: 10px;
+    grid-template-columns: 300px 600px 350px; 
+
+}
+.left{
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 60vh;
+    margin-top: -20px;
+}
+.center{
+    width: 100%;
+    height: 60vh;
+    margin-left: -100px;
+}
+form {
+    grid-gap: 10px;
+    margin-top: 40px;
+}
+form input:nth-child(1){
+    position: relative;
+    top: -5px;
+    margin: 20px;
+    padding: 4px;
+    border:1px solid rgb(201, 197, 197)
+}
+form input:nth-child(3){
+    position: relative;
+    top: 6px;
+    margin: 20px;
+    padding: 4px;
+    border:1px solid rgb(201, 197, 197)
+}
+form input:nth-child(4){
+    position: relative;
+    top: 18px;
+    margin: 20px;
+    padding: 4px;
+    border:1px solid rgb(201, 197, 197)
+}
+form input:nth-child(5){
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    padding: 4px;
+    border:1px solid rgb(201, 197, 197)
+}
+.center1 span{
+    position: relative;
+    right: 300px;
+    font-size: 15px;
+
+}
+.right{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 60vh;
+    margin-top: 15px;
+    right: 80px;
+}
+/* END SEARCH */
