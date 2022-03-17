@@ -139,4 +139,15 @@ i.fa-microphone{
 .search .search2 input:nth-child(2):hover{
     border: 1px solid rgb(228, 228, 228);
 }
+.arabic{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.arabic a{
+    text-decoration:none;
+}
  /* END SEARCH  */
