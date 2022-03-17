@@ -12,9 +12,11 @@
 .header{
     position:relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 } 
 .header button{
+    position: relative;
+    top: -9px;
     background: rgb(45, 83, 255);
     border: none;
     width: 90PX;
